@@ -17,7 +17,7 @@ const Layout = ({id, title, descr, urlBg, colorBg}) => {
                         <h3>{title && title}</h3>
                         <span className={s.separator}></span>
                     </div>
-                    <div className={s.desc.full}>
+                    <div className={s.desc + " " + s.full}>
                         <p>{descr && descr}</p>
                     </div>
                 </article>
